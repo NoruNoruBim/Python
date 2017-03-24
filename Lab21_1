@@ -39,7 +39,7 @@ print('\nSuccess!\nYou can open file  request_clean.txt')
 print('\nYou can also print information on console\nWrite yes or no:')
 
 choice = input()
-if choise == 'yes':
+if choice == 'yes':
     print(cleaning(url_end))
     print('\nSee you later!')
 else:
