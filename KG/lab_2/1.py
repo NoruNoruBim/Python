@@ -1,3 +1,9 @@
+'''
+Программа построения куба
+Выполнил студент группы М8о-307Б
+Баранов Антон
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
