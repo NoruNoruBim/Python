@@ -6,13 +6,13 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 
 def plot_cube(param, color, view):
 	points = np.array([[-1, -1, -1],
-					  [1, -1, -1 ],
-					  [1, 1, -1],
-					  [-1, 1, -1],
-					  [-1, -1, 1],
-					  [1, -1, 1 ],
-					  [1, 1, 1],
-					  [-1, 1, 1]])
+			  [1, -1, -1 ],
+			  [1, 1, -1],
+			  [-1, 1, -1],
+			  [-1, -1, 1],
+			  [1, -1, 1 ],
+			  [1, 1, 1],
+			  [-1, 1, 1]])
 	points *= param
 
 	fig = plt.figure()
