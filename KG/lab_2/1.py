@@ -41,7 +41,7 @@ def plot_cube(param, color, view):
 	if color == 3:
 		cl = (1, 0, 0, view)
 
-	ax.add_collection3d(Poly3DCollection(verts, linewidths=1, facecolors = cl, edgecolors='k', alpha=.25))
+	ax.add_collection3d(Poly3DCollection(verts, linewidths=1, facecolors = cl, edgecolors='k'))
 
 	ax.set_aspect('equal')
 
