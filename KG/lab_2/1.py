@@ -18,9 +18,7 @@ def plot_cube(param, color, view):
 	fig = plt.figure()
 	ax = fig.add_subplot(111, projection='3d')
 
-	r = [-1,1]
 
-	X, Y = np.meshgrid(r, r)
 	# plot vertices
 	ax.scatter3D(points[:, 0], points[:, 1], points[:, 2])
 
@@ -49,7 +47,7 @@ def plot_cube(param, color, view):
 
 	ax.set_xlabel('X')
 	ax.set_ylabel('Y')
-	ax.set_zlabel('z')
+	ax.set_zlabel('Z')
 
 	plt.show()
 
