@@ -5,3 +5,5 @@ Here is two datasets:
 SMS spam and online shops statistics.
 
 To get bases with "get_bases.py" replace path with a link and use module requests.
+
+Program "get_bases.py" get bases from storage and plot some diagrams.
